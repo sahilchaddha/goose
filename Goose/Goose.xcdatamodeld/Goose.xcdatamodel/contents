@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<model type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="22522" systemVersion="23C71" minimumToolsVersion="Automatic" sourceLanguage="Swift" userDefinedModelVersionIdentifier="">
+    <entity name="Item" representedClassName="Item" syncable="YES" codeGenerationType="class">
+        <attribute name="bundleId" optional="YES" attributeType="String"/>
+        <attribute name="bundleUrl" optional="YES" attributeType="String"/>
+        <attribute name="enabled" optional="YES" attributeType="Boolean" usesScalarValueType="YES"/>
+        <attribute name="executableUrl" optional="YES" attributeType="String"/>
+        <attribute name="flash" optional="YES" attributeType="Boolean" usesScalarValueType="YES"/>
+        <attribute name="name" optional="YES" attributeType="String"/>
+        <attribute name="notification" optional="YES" attributeType="Boolean" usesScalarValueType="YES"/>
+        <attribute name="showStatusItem" optional="YES" attributeType="Boolean" usesScalarValueType="YES"/>
+        <attribute name="sound" optional="YES" attributeType="Boolean" usesScalarValueType="YES"/>
+        <attribute name="threshold" optional="YES" attributeType="Integer 32" defaultValueString="0" usesScalarValueType="YES"/>
+        <attribute name="timestamp" optional="YES" attributeType="Date" usesScalarValueType="NO"/>
+    </entity>
+</model>
